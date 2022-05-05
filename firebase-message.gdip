@@ -1,0 +1,15 @@
+[config]
+name="FirebaseMessage"
+binary="firebase-message/bin/firebase-message.a"
+initialization="godot_firebase_message_init"
+deinitialization="godot_firebase_message_deinit"
+
+[dependencies]
+
+linked=[
+]
+embedded=[]
+system=[]
+capabilities=[]
+files=[]
+[plist]

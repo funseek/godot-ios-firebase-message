@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5010693B437A68B0689C0C56 /* Pods_godot_ios_firebase_message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B3B31BD636548107094228 /* Pods_godot_ios_firebase_message.framework */; };
+		7B3E0C2828224784009B8B4A /* godot_ios_firebase_message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E0C2728224784009B8B4A /* godot_ios_firebase_message.mm */; };
+		7B3E0C2928224784009B8B4A /* godot_ios_firebase_message.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B3E0C2628224784009B8B4A /* godot_ios_firebase_message.h */; };
+		7B3E0C3028224B9D009B8B4A /* firebase_message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E0C2F28224B9D009B8B4A /* firebase_message.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B3E0C2128224784009B8B4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7B3E0C2928224784009B8B4A /* godot_ios_firebase_message.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B3E0C2328224784009B8B4A /* libgodot-ios-firebase-message.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgodot-ios-firebase-message.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3E0C2628224784009B8B4A /* godot_ios_firebase_message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = godot_ios_firebase_message.h; sourceTree = "<group>"; };
+		7B3E0C2728224784009B8B4A /* godot_ios_firebase_message.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = godot_ios_firebase_message.mm; sourceTree = "<group>"; };
+		7B3E0C2F28224B9D009B8B4A /* firebase_message.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = firebase_message.mm; sourceTree = "<group>"; };
+		7B3E0C3128224BC9009B8B4A /* firebase_message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firebase_message.h; sourceTree = "<group>"; };
+		D3B3B31BD636548107094228 /* Pods_godot_ios_firebase_message.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_godot_ios_firebase_message.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3E18B068E926CD0423F414 /* Pods-godot-ios-firebase-message.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godot-ios-firebase-message.release.xcconfig"; path = "Target Support Files/Pods-godot-ios-firebase-message/Pods-godot-ios-firebase-message.release.xcconfig"; sourceTree = "<group>"; };
+		FCCA82E2EAFD46A4CD800F77 /* Pods-godot-ios-firebase-message.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godot-ios-firebase-message.debug.xcconfig"; path = "Target Support Files/Pods-godot-ios-firebase-message/Pods-godot-ios-firebase-message.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B3E0C2028224784009B8B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5010693B437A68B0689C0C56 /* Pods_godot_ios_firebase_message.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B3E0C1A28224784009B8B4A = {
+			isa = PBXGroup;
+			children = (
+				7B3E0C2528224784009B8B4A /* godot-ios-firebase-message */,
+				7B3E0C2428224784009B8B4A /* Products */,
+				BD60C73C205D143D9C8879F3 /* Pods */,
+				E8E146438E0AC37E9C52530C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B3E0C2428224784009B8B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B3E0C2328224784009B8B4A /* libgodot-ios-firebase-message.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B3E0C2528224784009B8B4A /* godot-ios-firebase-message */ = {
+			isa = PBXGroup;
+			children = (
+				7B3E0C2628224784009B8B4A /* godot_ios_firebase_message.h */,
+				7B3E0C2728224784009B8B4A /* godot_ios_firebase_message.mm */,
+				7B3E0C3128224BC9009B8B4A /* firebase_message.h */,
+				7B3E0C2F28224B9D009B8B4A /* firebase_message.mm */,
+			);
+			path = "godot-ios-firebase-message";
+			sourceTree = "<group>";
+		};
+		BD60C73C205D143D9C8879F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA82E2EAFD46A4CD800F77 /* Pods-godot-ios-firebase-message.debug.xcconfig */,
+				EE3E18B068E926CD0423F414 /* Pods-godot-ios-firebase-message.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8E146438E0AC37E9C52530C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B3B31BD636548107094228 /* Pods_godot_ios_firebase_message.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B3E0C2228224784009B8B4A /* godot-ios-firebase-message */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3E0C2C28224784009B8B4A /* Build configuration list for PBXNativeTarget "godot-ios-firebase-message" */;
+			buildPhases = (
+				19B8222DA7EF9405AF0E4AC8 /* [CP] Check Pods Manifest.lock */,
+				7B3E0C1F28224784009B8B4A /* Sources */,
+				7B3E0C2028224784009B8B4A /* Frameworks */,
+				7B3E0C2128224784009B8B4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "godot-ios-firebase-message";
+			productName = "godot-ios-firebase-message";
+			productReference = 7B3E0C2328224784009B8B4A /* libgodot-ios-firebase-message.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B3E0C1B28224784009B8B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7B3E0C2228224784009B8B4A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7B3E0C1E28224784009B8B4A /* Build configuration list for PBXProject "godot-ios-firebase-message" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B3E0C1A28224784009B8B4A;
+			productRefGroup = 7B3E0C2428224784009B8B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B3E0C2228224784009B8B4A /* godot-ios-firebase-message */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B8222DA7EF9405AF0E4AC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-godot-ios-firebase-message-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B3E0C1F28224784009B8B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3E0C3028224B9D009B8B4A /* firebase_message.mm in Sources */,
+				7B3E0C2828224784009B8B4A /* godot_ios_firebase_message.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B3E0C2A28224784009B8B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B3E0C2B28224784009B8B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B3E0C2D28224784009B8B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCA82E2EAFD46A4CD800F77 /* Pods-godot-ios-firebase-message.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X62PMQJAR;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging/FirebaseMessaging.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"$(SRCROOT)/godot/main",
+					"$(SRCROOT)/godot",
+					"$(SRCROOT)/godot/trirdparty",
+					"$(SRCROOT)/godot/drivers",
+					"$(SRCROOT)/godot/scene",
+					"$(SRCROOT)/godot/modules",
+					"$(SRCROOT)/godot/platform/iphone",
+					"$(SRCROOT)/godot/core",
+					"$(SRCROOT)/godot/platform",
+					"$(SRCROOT)/godot/servers",
+					"$(SRCROOT)/godot/core/os",
+				);
+				OTHER_CFLAGS = (
+					"-DPTRCALL_ENABLED",
+					"-DDEBUG_ENABLED",
+					"-DDEBUG_MEMORY_ALLOC",
+					"-DDISABLE_FORCED_INLINE",
+					"-DTYPED_METHOD_BIND",
+					"-DPTRCALL_ENABLED",
+					"-DDEBUG_ENABLED",
+					"-DDEBUG_MEMORY_ALLOC",
+					"-DDISABLE_FORCED_INLINE",
+					"-DTYPED_METHOD_BIND",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B3E0C2E28224784009B8B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3E18B068E926CD0423F414 /* Pods-godot-ios-firebase-message.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X62PMQJAR;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging/FirebaseMessaging.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"$(SRCROOT)/godot/main",
+					"$(SRCROOT)/godot",
+					"$(SRCROOT)/godot/trirdparty",
+					"$(SRCROOT)/godot/drivers",
+					"$(SRCROOT)/godot/scene",
+					"$(SRCROOT)/godot/modules",
+					"$(SRCROOT)/godot/platform/iphone",
+					"$(SRCROOT)/godot/core",
+					"$(SRCROOT)/godot/platform",
+					"$(SRCROOT)/godot/servers",
+					"$(SRCROOT)/godot/core/os",
+				);
+				OTHER_CFLAGS = (
+					"-DPTRCALL_ENABLED",
+					"-DDEBUG_ENABLED",
+					"-DDEBUG_MEMORY_ALLOC",
+					"-DDISABLE_FORCED_INLINE",
+					"-DTYPED_METHOD_BIND",
+					"-DPTRCALL_ENABLED",
+					"-DDEBUG_ENABLED",
+					"-DDEBUG_MEMORY_ALLOC",
+					"-DDISABLE_FORCED_INLINE",
+					"-DTYPED_METHOD_BIND",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B3E0C1E28224784009B8B4A /* Build configuration list for PBXProject "godot-ios-firebase-message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3E0C2A28224784009B8B4A /* Debug */,
+				7B3E0C2B28224784009B8B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3E0C2C28224784009B8B4A /* Build configuration list for PBXNativeTarget "godot-ios-firebase-message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3E0C2D28224784009B8B4A /* Debug */,
+				7B3E0C2E28224784009B8B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B3E0C1B28224784009B8B4A /* Project object */;
+}
