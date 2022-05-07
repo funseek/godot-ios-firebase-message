@@ -15,11 +15,13 @@ class FirebaseMessage : public Object {
     
     static void _bind_methods();
     static String _token;
+    static String _apns_token;
     
 public:
     
     String get_token();
-    void token_received(String t);
+    String get_apns_token();
+    void token_received(String t, String hex);
     
     FirebaseMessage();
     ~FirebaseMessage();
