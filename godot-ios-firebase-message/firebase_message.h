@@ -21,6 +21,7 @@ public:
     
     String get_token();
     String get_apns_token();
+    void init_firebase_message();
     void token_received(String t, String hex);
     
     FirebaseMessage();

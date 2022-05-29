@@ -26,6 +26,7 @@ String from_nsstring(NSString* str) {
 
 void FirebaseMessage::_bind_methods() {
     ClassDB::bind_method(D_METHOD("get_fcm_token"), &FirebaseMessage::get_token);
+    ClassDB::bind_method(D_METHOD("init_firebase_message"), &FirebaseMessage::init_firebase_message);
     ClassDB::bind_method(D_METHOD("get_apns_token"), &FirebaseMessage::get_apns_token);
     ADD_SIGNAL(MethodInfo("did_receive_registration_token", PropertyInfo(Variant::STRING, "token"), PropertyInfo(Variant::STRING, "apns_token")));
 }
@@ -67,6 +68,13 @@ void FirebaseMessage::_bind_methods() {
 
 FirebaseMessage::FirebaseMessage() {
     NSLog(@"initialize FirebaseMessage");
+}
+
+FirebaseMessage::~FirebaseMessage() {
+    NSLog(@"deinitialize FirebaseMessage");
+}
+
+void FirebaseMessage::init_firebase_message() {
     _instance = this;
     UIApplication *application = UIApplication.sharedApplication;
     FirebaseMessageDelegate* _delegate = [FirebaseMessageDelegate new];
@@ -94,10 +102,6 @@ FirebaseMessage::FirebaseMessage() {
 //            emit_signal("did_receive_registration_token", _token, from_nsstring(deviceTokenString));
 //        }
 //    }];
-}
-
-FirebaseMessage::~FirebaseMessage() {
-    NSLog(@"deinitialize FirebaseMessage");
 }
 
 String FirebaseMessage::get_token() {

@@ -48,9 +48,11 @@ pod install
 
 ### How to use it with GDScript
 
-One method and one signal are provided  
+#### Method
+* init_firebase_message
 * get_fcm_token
 * get_apns_token
+#### signal
 * did_receive_registration_token ([see](https://firebase.google.com/docs/cloud-messaging/ios/client?hl=en#monitor-token-refresh))
 
 #### notice
@@ -58,6 +60,12 @@ get_fcm_token and get_apns_token are set after did_receive_registration_token is
 
 Calling plugin in Godot
 ```gdscript
+# init_firebase_message
+func init_firebase_message():
+	if Engine.has_singleton("FirebaseMessage"):
+		  var singleton = Engine.get_singleton("FirebaseMessage")
+		  singleton.init_firebase_message()
+
 # get_fcm_token
 func get_fcm_token():
 	if Engine.has_singleton("FirebaseMessage"):
