@@ -12,18 +12,18 @@
 #import "firebase_message.h"
 #import "core/engine.h"
 
-FirebaseMessage *plugin;
+FirebaseMessage *firebase_message_plugin;
 
 void godot_firebase_message_init() {
     NSLog(@"init Firebasemessage plugin");
-    plugin = memnew(FirebaseMessage);
-    Engine::get_singleton()->add_singleton(Engine::Singleton("FirebaseMessage", plugin));
+    firebase_message_plugin = memnew(FirebaseMessage);
+    Engine::get_singleton()->add_singleton(Engine::Singleton("FirebaseMessage", firebase_message_plugin));
 }
 
 void godot_firebase_message_deinit() {
     NSLog(@"deinit Firebasemessage plugin");
-    if (plugin) {
-        memdelete(plugin);
+    if (firebase_message_plugin) {
+        memdelete(firebase_message_plugin);
     }
 }
 
