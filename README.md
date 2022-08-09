@@ -25,7 +25,7 @@ pod install
 
 Building a .a library
 ```
-./scripts/release_static_library.sh 3.4
+./scripts/release_static_library.sh 3.5
 ```
 
 Copy a.library to Godot plugin directory
